@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>네이버 회원가입창 - 정규표현식</title>
+        <link rel="stylesheet" href="join.css">
+    </head>
+    <body>
+        <div class="joinWrap">
+            <h1><a href="#">NAVER</a></h1>
+            <form action="#" id="joinForm">
+                <label for="joinId">아이디</label>
+                <input type="text" id="joinId" maxlength="20">
+                <p class="errorText">필수정보입니다.</p>
+                <label for="joinPass">비밀번호</label>
+                <input type="password" id="joinPass" maxlength="16">
+                <p class="errorText">필수정보입니다.</p>
+                <label for="joinPassChk">비밀번호 재확인</label>
+                <input type="password" id="joinPassChk" maxlength="16">
+                <p class="errorText">필수정보입니다.</p>
+                <label for="joinName">이름</label>
+                <input type="text" id="joinName">
+                <p class="errorText">필수정보입니다.</p>
+                <label for="joinEmail">본인 확인 이메일</label>
+                <input type="email" id="joinEmail">
+                <p class="errorText">필수정보입니다.</p>
+                <label for="joinPhone">휴대전화</label>
+                <input type="text" id="joinPhone">
+                <p class="errorText">필수정보입니다.</p>
+                <button type="submit">가입하기</button>
+            </form>
+        </div>
+
+        <script src="join.js"></script>
+    </body>
+</html>
